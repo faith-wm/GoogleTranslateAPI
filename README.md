@@ -1,2 +1,2 @@
 # NLP_basics
-Getting started with Natural Language Processing in Python
+Getting started with Natural Language Processing in Python.
