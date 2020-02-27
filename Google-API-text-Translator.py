@@ -1,19 +1,10 @@
-
-
-
-
 import csv
 import pandas as pd
 import sys
 import os
 
-
-
 from google_api_translate import Translator
 from google.oauth2 import service_account
-
-
-
 
 class GoogleAPI_translate_text:
     def __init__(self, credentials_path,source_language, target_language,source_lang_file,translated_file):
