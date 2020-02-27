@@ -1,4 +1,3 @@
-# NLP_basics
-Getting started with Natural Language Processing in Python.
+# Google translate API
+This repo is on how to use the Google API to translate texts.
 
-***reminder: create branch hehe
