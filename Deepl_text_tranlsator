@@ -1,0 +1,15 @@
+
+import requests
+def deepL_translate(text):
+    API_KEY = 'your deepl secret key'
+    params = {
+        "auth_key": API_KEY,
+        "text": text,
+        "source_lang": 'EN',
+        "target_lang": 'JA'
+    }
+
+    request = requests.post("https://api.deepl.com/v2/translate", data=params)
+    result = request.json()
+
+    return result["translations"][0]["text"]
