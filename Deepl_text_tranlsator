@@ -1,12 +1,12 @@
 
 import requests
-def deepL_translate(text):
+def deepL_translate(api_key,text,source_lang,target_lang):
     API_KEY = 'your deepl secret key'
     params = {
-        "auth_key": API_KEY,
+        "auth_key": api_key,
         "text": text,
-        "source_lang": 'EN',
-        "target_lang": 'JA'
+        "source_lang": source_lang,
+        "target_lang": target_lang
     }
 
     request = requests.post("https://api.deepl.com/v2/translate", data=params)
