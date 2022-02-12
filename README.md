@@ -1,3 +1,6 @@
+# Text translation
+How to translate texts using Google translate and DeepL translate APIs
+
 # Google translate API
 
 How to translate texts using the Google translate API.
